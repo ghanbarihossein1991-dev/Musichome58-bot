@@ -512,7 +512,7 @@ async def handle_private_audio(update: Update, context: ContextTypes.DEFAULT_TYP
                 filename=file_name,
                 title=title,
                 performer=artist,
-                caption=build_caption(title, artist, genre, "✅ اصلاح شد"),
+                caption=build_caption(title, artist, genre,   
             )
         return
 
